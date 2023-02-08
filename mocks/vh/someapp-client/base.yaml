@@ -1,0 +1,10 @@
+secret_name: app-two-api
+full_secret_config_paths:
+  - secret/machine/config/app-two-client-dev
+key_config:
+  SOME_SILLY_THING:
+    path: secret/machine/redis/test/app-two-client
+    key: SOME_SILLY_THING
+  SOME_OTHER_SILLY_THING:
+    path: secret/machine/turbo/dev/app-two-client
+    key: SOME_OTHER_SILLY_THING

@@ -1,0 +1,9 @@
+secret_name: app-two-api
+key_config:
+  EXAMPLE_PASS2:
+    path: secret/machine/redis/prod/app-three
+    key: APP_THREE_INDEX_REDIS_PASSWORD
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/admin
+    key: username
+    base64: true

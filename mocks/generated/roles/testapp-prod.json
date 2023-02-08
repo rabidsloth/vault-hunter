@@ -1,0 +1,16 @@
+{
+ "role_type": "jwt",
+ "policies": [
+  "vh-testapp-prod",
+  "vh-app-two-api-prod",
+  "vh-app-two-client-prod"
+ ],
+ "token_explicit_max_ttl": 60,
+ "user_claim": "user_email",
+ "bound_claims_type": "glob",
+ "bound_claims": {
+  "project_id": "15",
+  "ref": "master",
+  "ref_type": "branch"
+ }
+}

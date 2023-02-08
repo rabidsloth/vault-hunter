@@ -1,0 +1,13 @@
+secret_name: someotherapp
+full_secret_config_paths:
+  - secret/machine/config/app-two-client-dev
+key_config:
+  EXAMPLE_PASS:
+    path: secret/machine/anotherdep/prod
+    key: anotherdep-verification-token
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/admin
+    key: username
+  SOME_OTHER_STUFF:
+    path: secret/machine/config/mykittycat
+    key: ENV_VAR_REPLACEMENT

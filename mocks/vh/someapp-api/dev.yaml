@@ -1,0 +1,8 @@
+secret_name: app-two-api
+key_config:
+  EXAMPLE_PASS:
+    path: secret/machine/anotherdep/prod
+    key: anotherdep-verification-token
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/admin
+    key: username

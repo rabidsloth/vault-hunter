@@ -1,0 +1,8 @@
+secret_name: app-two-client
+key_config:
+  EXAMPLE_PASS:
+    path: secret/machine/conduit/api
+    key: CONDUIT_API_KEY
+  ANOTHERDEP_SECURITY_GROUP_ID:
+    path: config/machine/anotherdep/base
+    key: ANOTHERDEP_SECURITY_GROUP_ID

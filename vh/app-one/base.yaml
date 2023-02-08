@@ -1,0 +1,18 @@
+secret_name: app-one-test
+key_config:
+  A_KEY_OF_A_THING:
+    path: config/app-one/base
+    key: A_KEY_OF_A_THING
+  RABBITMQ_PORT:
+    path: config/app-one/base
+    key: RABBITMQ_PORT
+  RABBITMQ_SCHEMA:
+    path: config/app-one/base
+    key: RABBITMQ_SCHEMA
+  RABBITMQ_VHOST:
+    path: config/app-one/base
+    key: RABBITMQ_VHOST
+  REST_PORT:
+    path: config/app-one/base
+    key: REST_PORT
+  

@@ -1,0 +1,29 @@
+secret_name: app-two-api
+key_config:
+  APP_ONE_HOST:
+    path: config/app-two/api/base
+    key: APP_ONE_HOST
+  APP_ONE_TOKEN:
+    path: secrets/app-one/app-two/dev
+    key: token
+  ENV:
+    path: config/app-two/api/base
+    key: ENV
+  LOG_LEVEL:
+    path: config/app-two/api/base
+    key: LOG_LEVEL
+  PORT:
+    path: config/app-two/api/base
+    key: PORT
+  SOME_DEP_AUDIENCE:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_AUDIENCE
+  SOME_DEP_AUTHORITY:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_AUTHORITY
+  SOME_DEP_CLIENT_ID:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_CLIENT_ID
+  SOME_DEP_CLIENT_SECRET:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_CLIENT_SECRET

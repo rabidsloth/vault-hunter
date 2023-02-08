@@ -1,0 +1,13 @@
+secret_name: someotherapp
+full_secret_config_paths:
+  - secret/machine/config/app-two-client-dev
+key_config:
+  EXAMPLE_PASS:
+    path: secret/machine/anotherdep/prod
+    key: anotherdep-verification-token
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/admin
+    key: username
+  SOME_DEP_SECRET_ID:
+    path: secret/someotherdep/app-two-{{UNKNOWN}}/cats
+    key: password

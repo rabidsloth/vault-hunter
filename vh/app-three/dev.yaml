@@ -1,0 +1,379 @@
+secret_name: app-three
+full_secret_config_paths:
+  - config/app-three/dev
+key_config:
+  API_ENDPOINT:
+    key: API_ENDPOINT
+    path: config/app-three/dev
+  SOME_DEP_APP_NAME:
+    key: SOME_DEP_APP_NAME
+    path: config/app-three/dev
+  SOME_DEP_CALLBACK_HOST:
+    key: SOME_DEP_CALLBACK_HOST
+    path: config/app-three/dev
+  SOME_DEP_CLIENT_ID:
+    key: SOME_DEP_CLIENT_ID
+    path: secrets/yetanotherdep/dev/app-three
+  SOME_DEP_CLIENT_SECRET:
+    key: SOME_DEP_CLIENT_SECRET
+    path: secrets/yetanotherdep/dev/app-three
+  SOME_DEP_DOMAIN:
+    key: SOME_DEP_DOMAIN
+    path: config/app-three/dev
+  SOME_DEP_NAMESPACE:
+    key: SOME_DEP_NAMESPACE
+    path: config/app-three/dev
+  SOME_DEP_SCOPE_AUDIENCE:
+    key: SOME_DEP_SCOPE_AUDIENCE
+    path: config/app-three/dev
+  SOME_DEP_USER_DB_ID:
+    key: SOME_DEP_USER_DB_ID
+    path: config/app-three/dev
+  SOME_DEP_USER_DB_NAME:
+    key: SOME_DEP_USER_DB_NAME
+    path: config/app-three/dev
+  BLOG_LINK_HOST:
+    key: BLOG_LINK_HOST
+    path: config/app-three/dev
+  CI_ENV:
+    key: CI_ENV
+    path: config/app-three/dev
+  CODEIGNITER_PROFILER:
+    key: CODEIGNITER_PROFILER
+    path: config/app-three/dev
+  CONDUIT_API_ENDPOINT:
+    key: CONDUIT_API_ENDPOINT
+    path: config/app-three/dev
+  CONDUIT_API_KEY:
+    key: CONDUIT_API_KEY
+    path: secrets/conduit/api
+  CORP_DOMAIN:
+    key: CORP_DOMAIN
+    path: config/app-three/dev
+  DASHBOARD_DEBUG:
+    key: DASHBOARD_DEBUG
+    path: config/app-three/dev
+  DASHBOARD_JS_ERROR_LEVEL:
+    key: DASHBOARD_JS_ERROR_LEVEL
+    path: config/app-three/dev
+  DB_READ_HOST:
+    key: DB_READ_HOST
+    path: config/app-three/dev
+  DB_READ_PASS:
+    key: DB_READ_PASS
+    path: secrets/db/somedb/dev/app-three
+  DB_READ_USER:
+    key: DB_READ_USER
+    path: secrets/db/somedb/dev/app-three
+  DB_WRITE_HOST:
+    key: DB_WRITE_HOST
+    path: config/app-three/dev
+  DB_WRITE_PASS:
+    key: DB_WRITE_PASS
+    path: secrets/db/somedb/dev/app-three
+  DB_WRITE_USER:
+    key: DB_WRITE_USER
+    path: secrets/db/somedb/dev/app-three
+  DD_RUM_APPID:
+    key: DD_RUM_APPID
+    path: secrets/datadog/rum/dev/app-three
+  DD_RUM_ENV:
+    key: DD_RUM_ENV
+    path: config/app-three/dev
+  DD_RUM_SAMPLE_RATE:
+    key: DD_RUM_SAMPLE_RATE
+    path: config/app-three/dev
+  DD_RUM_SERVICE:
+    key: DD_RUM_SERVICE
+    path: config/app-three/dev
+  DD_RUM_SITE:
+    key: DD_RUM_SITE
+    path: config/app-three/dev
+  DD_RUM_TOKEN:
+    key: DD_RUM_TOKEN
+    path: secrets/datadog/rum/dev/app-three
+  DD_RUM_VERSION:
+    key: DD_RUM_VERSION
+    path: config/app-three/dev
+  DD_SERVICE:
+    key: DD_SERVICE
+    path: config/app-three/dev
+  DD_TRACE_CURL_ANALYTICS_ENABLED:
+    key: DD_TRACE_CURL_ANALYTICS_ENABLED
+    path: config/app-three/dev
+  DD_TRACE_DEBUG:
+    key: DD_TRACE_DEBUG
+    path: config/app-three/dev
+  DD_TRACE_ENABLED:
+    key: DD_TRACE_ENABLED
+    path: config/app-three/dev
+  DD_TRACE_GUZZLE_ANALYTICS_ENABLED:
+    key: DD_TRACE_GUZZLE_ANALYTICS_ENABLED
+    path: config/app-three/dev
+  DD_TRACE_MYSQLI_ANALYTICS_ENABLED:
+    key: DD_TRACE_MYSQLI_ANALYTICS_ENABLED
+    path: config/app-three/dev
+  DISABLE_TWOFAC:
+    key: DISABLE_TWOFAC
+    path: config/app-three/dev
+  EMAIL_KEY_SALT:
+    key: EMAIL_KEY_SALT
+    path: config/app-three/dev
+  HUBSPOT_API_KEY:
+    key: key
+    path: secrets/hubspot/api
+  HUBSPOT_CLIENT_FIRST_NAME_DEFAULT:
+    key: HUBSPOT_CLIENT_FIRST_NAME_DEFAULT
+    path: config/app-three/dev
+  HUBSPOT_CLIENT_LAST_NAME_DEFAULT:
+    key: HUBSPOT_CLIENT_LAST_NAME_DEFAULT
+    path: config/app-three/dev
+  IKEMAIL_MAILGUN_DOMAIN:
+    key: IKEMAIL_MAILGUN_DOMAIN
+    path: config/app-three/dev
+  IKEMAIL_MAILGUN_ENDPOINT:
+    key: IKEMAIL_MAILGUN_ENDPOINT
+    path: config/app-three/dev
+  IKEMAIL_MAILGUN_WEBHOOK_KEY:
+    key: private-api-key
+    path: secrets/mailgun/api
+  IKEMAIL_TEMPLATE_DEFAULT_SECURE_LINK_HOST:
+    key: IKEMAIL_TEMPLATE_DEFAULT_SECURE_LINK_HOST
+    path: config/app-three/dev
+  IKEMAIL_THEME_ENCODE:
+    key: IKEMAIL_THEME_ENCODE
+    path: config/app-three/dev
+  IKEMAIL_THEME_PATH:
+    key: IKEMAIL_THEME_PATH
+    path: config/app-three/dev
+  IKERROR_SLACK_APPLICATION_NAME:
+    key: IKERROR_SLACK_APPLICATION_NAME
+    path: config/app-three/dev
+  IKERROR_SLACK_APP_ID:
+    key: IKERROR_SLACK_APP_ID
+    path: config/app-three/dev
+  IKERROR_SLACK_CHANNEL_ID:
+    key: IKERROR_SLACK_CHANNEL_ID
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_CLIENT_ID:
+    key: IKERROR_SLACK_CLIENT_ID
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_CLIENT_SECRET:
+    key: IKERROR_SLACK_CLIENT_SECRET
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_MODE:
+    key: IKERROR_SLACK_MODE
+    path: config/app-three/dev
+  IKERROR_SLACK_NODE_NAME:
+    key: IKERROR_SLACK_NODE_NAME
+    path: config/app-three/dev
+  IKERROR_SLACK_OAUTH_TOKEN:
+    key: IKERROR_SLACK_OAUTH_TOKEN
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_SIGNING_SECRET:
+    key: IKERROR_SLACK_SIGNING_SECRET
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_VERIFICATION_TOKEN:
+    key: IKERROR_SLACK_VERIFICATION_TOKEN
+    path: secrets/slack/apps/app-three
+  IKERROR_SLACK_WEBHOOK_URL:
+    key: IKERROR_SLACK_WEBHOOK_URL
+    path: secrets/slack/apps/app-three
+  IK_ERROR_LOG_DEBUG:
+    key: IK_ERROR_LOG_DEBUG
+    path: config/app-three/dev
+  IK_ERROR_LOG_LEVEL:
+    key: IK_ERROR_LOG_LEVEL
+    path: config/app-three/dev
+  IK_ERROR_LOG_STDERR:
+    key: IK_ERROR_LOG_STDERR
+    path: config/app-three/dev
+  INTERCOM_APP_ID:
+    key: INTERCOM_APP_ID
+    path: secrets/intercom/apps/app-three
+  INTERCOM_IDENTITY_SECRET:
+    key: INTERCOM_IDENTITY_SECRET
+    path: secrets/intercom/apps/app-three
+  JSON_LOGGER_OUT_PATH:
+    key: JSON_LOGGER_OUT_PATH
+    path: config/app-three/dev
+  MAILGUN_DOMAIN:
+    key: MAILGUN_DOMAIN
+    path: config/app-three/dev
+  MAILGUN_ENDPOINT:
+    key: MAILGUN_ENDPOINT
+    path: config/app-three/dev
+  MAILGUN_WEBHOOK_KEY:
+    key: private-api-key
+    path: secrets/mailgun/api
+  MAX_REFERRAL_UPLOAD:
+    key: MAX_REFERRAL_UPLOAD
+    path: config/app-three/dev
+  MIXPANEL_DEBUG:
+    key: MIXPANEL_DEBUG
+    path: config/app-three/dev
+  MIXPANEL_ENVIRONMENT:
+    key: MIXPANEL_ENVIRONMENT
+    path: config/app-three/dev
+  MIXPANEL_TOKEN:
+    key: project-token
+    path: secrets/mixpanel/dev/app-three
+  NODE_NAME:
+    key: NODE_NAME
+    path: config/app-three/dev
+  PWNED_KEY:
+    key: PWNED_KEY
+    path: secrets/haveibeenpwned/api
+  QUEUE_SUFFIX:
+    key: QUEUE_SUFFIX
+    path: config/app-three/dev
+  RABBITMQ_API_DEBUG:
+    key: RABBITMQ_API_DEBUG
+    path: config/app-three/dev
+  RABBITMQ_EXCHANGE_CONFIG_PATH:
+    key: RABBITMQ_EXCHANGE_CONFIG_PATH
+    path: config/app-three/dev
+  RABBITMQ_HOST:
+    key: RABBITMQ_HOST
+    path: config/app-three/dev
+  RABBITMQ_PASS:
+    key: password
+    path: secrets/rabbitmq/dev/app-three
+  RABBITMQ_PORT:
+    key: RABBITMQ_PORT
+    path: config/app-three/dev
+  RABBITMQ_QUEUE_CONFIG_PATH:
+    key: RABBITMQ_QUEUE_CONFIG_PATH
+    path: config/app-three/dev
+  RABBITMQ_USER:
+    key: username
+    path: secrets/rabbitmq/dev/app-three
+  RECAPTCHA_SECRET:
+    key: RECAPTCHA_SECRET
+    path: secrets/google/recaptcha/dev/app-three
+  RECAPTCHA_SITEKEY:
+    key: RECAPTCHA_SITEKEY
+    path: secrets/google/recaptcha/dev/app-three
+  S3_ASSET_COMMIT_SHA:
+    key: S3_ASSET_COMMIT_SHA
+    path: config/app-three/dev
+  S3_HOST_PATH:
+    key: S3_HOST_PATH
+    path: config/app-three/dev
+  S3_PROFILE_UPLOAD_BUCKET:
+    key: S3_PROFILE_UPLOAD_BUCKET
+    path: config/app-three/dev
+  S3_PROFILE_UPLOAD_ID:
+    key: AWS_ACCESS_KEY_ID
+    path: secrets/aws/prod/iam/static-upload-svc
+  S3_PROFILE_UPLOAD_KEY:
+    key: AWS_SECRET_ACCESS_KEY
+    path: secrets/aws/prod/iam/static-upload-svc
+  S3_PROFILE_UPLOAD_PATH:
+    key: S3_PROFILE_UPLOAD_PATH
+    path: config/app-three/dev
+  S3_USE:
+    key: S3_USE
+    path: config/app-three/dev
+  SOPS_DATABASE:
+    key: SOPS_DATABASE
+    path: config/app-three/dev
+  SOPS_HOST:
+    key: SOPS_HOST
+    path: config/app-three/dev
+  SOPS_PASSWORD:
+    key: password
+    path: secrets/soprets/app-three
+  SOPS_PORT:
+    key: SOPS_PORT
+    path: config/app-three/dev
+  SOPS_SCHEME:
+    key: SOPS_SCHEME
+    path: config/app-three/dev
+  STRIPE_DEFAULT_SUBSCRIPTION_PLAN:
+    key: STRIPE_DEFAULT_SUBSCRIPTION_PLAN
+    path: config/app-three/dev
+  STRIPE_ENV:
+    key: STRIPE_ENV
+    path: config/app-three/dev
+  STRIPE_PUBLIC_KEY:
+    key: STRIPE_PUBLIC_KEY
+    path: secrets/stripe/dev/api
+  STRIPE_SECRET_KEY:
+    key: STRIPE_SECRET_KEY
+    path: secrets/stripe/dev/api
+  STRIPE_WEBHOOK_SECRET:
+    key: STRIPE_WEBHOOK_SECRET
+    path: secrets/stripe/dev/api
+  TWILIO_SECRET:
+    key: secret
+    path: secrets/twilio/prod/api
+  TWILIO_SID:
+    key: sid
+    path: secrets/twilio/prod/api
+  TWILIO_WEBHOOK_HOST:
+    key: TWILIO_WEBHOOK_HOST
+    path: config/app-three/dev
+  TWO_FAC_SALT:
+    key: TWO_FAC_SALT
+    path: config/app-three/dev
+  APP_THREE_INDEX_ALERTS_STORE_STALE:
+    key: APP_THREE_INDEX_ALERTS_STORE_STALE
+    path: config/app-three/dev
+  APP_THREE_INDEX_ALERTS_STORE_TYPE:
+    key: APP_THREE_INDEX_ALERTS_STORE_TYPE
+    path: config/app-three/dev
+  APP_THREE_INDEX_DEBUG:
+    key: APP_THREE_INDEX_DEBUG
+    path: config/app-three/dev
+  APP_THREE_INDEX_FILE_ROOT_PATH:
+    key: APP_THREE_INDEX_FILE_ROOT_PATH
+    path: config/app-three/dev
+  APP_THREE_INDEX_MARKET_VALUES_STORE_STALE:
+    key: APP_THREE_INDEX_MARKET_VALUES_STORE_STALE
+    path: config/app-three/dev
+  APP_THREE_INDEX_MARKET_VALUES_STORE_TYPE:
+    key: APP_THREE_INDEX_MARKET_VALUES_STORE_TYPE
+    path: config/app-three/dev
+  APP_THREE_INDEX_REDIS_DATABASE:
+    key: APP_THREE_INDEX_REDIS_DATABASE
+    path: config/app-three/dev
+  APP_THREE_INDEX_REDIS_HOST:
+    key: APP_THREE_INDEX_REDIS_HOST
+    path: config/app-three/dev
+  APP_THREE_INDEX_REDIS_PASSWORD:
+    key: APP_THREE_INDEX_REDIS_PASSWORD
+    path: secrets/redis/dev/app-three
+  APP_THREE_INDEX_REDIS_PORT:
+    key: APP_THREE_INDEX_REDIS_PORT
+    path: config/app-three/dev
+  APP_THREE_INDEX_REDIS_SCHEME:
+    key: APP_THREE_INDEX_REDIS_SCHEME
+    path: config/app-three/dev
+  APP_THREE_INDEX_STOPWATCH:
+    key: APP_THREE_INDEX_STOPWATCH
+    path: config/app-three/dev
+  VERBOSE_MODE:
+    key: VERBOSE_MODE
+    path: config/app-three/dev
+  YODLEE_API_KEY:
+    key: key
+    path: secrets/yodlee/prod/api
+  YODLEE_API_VERSION:
+    key: YODLEE_API_VERSION
+    path: config/app-three/dev
+  YODLEE_BASE_URL:
+    key: YODLEE_BASE_URL
+    path: config/app-three/dev
+  YODLEE_COBRAND_NAME:
+    key: YODLEE_COBRAND_NAME
+    path: config/app-three/dev
+  YODLEE_KEY_FILE:
+    key: YODLEE_KEY_FILE
+    path: config/app-three/dev
+  YODLEE_KEY_PATH:
+    key: YODLEE_KEY_PATH
+    path: config/app-three/dev
+  YODLEE_NODE_URL:
+    key: YODLEE_NODE_URL
+    path: config/app-three/dev

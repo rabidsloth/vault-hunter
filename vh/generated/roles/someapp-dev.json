@@ -1,0 +1,12 @@
+{
+ "role_type": "jwt",
+ "policies": [
+  "vh-app-two-dev"
+ ],
+ "token_explicit_max_ttl": 60,
+ "user_claim": "user_email",
+ "bound_claims_type": "glob",
+ "bound_claims": {
+  "project_id": "109"
+ }
+}

@@ -1,0 +1,5 @@
+FROM builder:go
+RUN apk add curl make
+ENV CGO_ENABLED=0
+WORKDIR /app
+COPY . /app/

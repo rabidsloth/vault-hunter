@@ -1,0 +1,34 @@
+secret_name: app-one-test
+key_config:
+  DB_HOST:
+    path: config/app-one/prod
+    key: DB_HOST
+  DB_USER:
+    path: secrets/db/somedb/prod/app-one
+    key: username
+  DB_PASS:
+    path: secrets/db/somedb/prod/app-one
+    key: password
+  A_KEY_OF_A_ANOTHER_THING:
+    path: config/app-one/prod
+    key: A_KEY_OF_A_ANOTHER_THING
+  ENV:
+    path: config/app-one/prod
+    key: ENV
+  PAYMENT_EMAIL_QUEUE_NAME:
+    path: config/app-one/prod
+    key: PAYMENT_EMAIL_QUEUE_NAME
+  RABBITMQ_CONNECTION_NAME:
+    path: config/app-one/prod
+    key: RABBITMQ_CONNECTION_NAME
+  RABBITMQ_HOST:
+    path: config/app-one/prod
+    key: RABBITMQ_HOST
+  RABBITMQ_USER:
+    path: secrets/rabbitmq/prod/app-one
+    key: username
+  RABBITMQ_PASS:
+    path: secrets/rabbitmq/prod/app-one
+    key: password
+
+

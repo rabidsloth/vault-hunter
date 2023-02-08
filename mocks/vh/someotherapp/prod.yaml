@@ -1,0 +1,10 @@
+secret_name: someotherapp
+full_secret_config_paths:
+  - secret/machine/config/app-two-client-prod
+key_config:
+  EXAMPLE_PASS2:
+    path: secret/machine/redis/prod/app-three
+    key: APP_THREE_INDEX_REDIS_PASSWORD
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/admin
+    key: username

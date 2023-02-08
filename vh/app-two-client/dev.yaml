@@ -1,0 +1,23 @@
+secret_name: app-two-client
+key_config:
+  REACT_APP_MODE:
+    path: config/app-two/client/dev
+    key: REACT_APP_MODE
+  REACT_APP_API_PROTOCOL:
+    path: config/app-two/client/base
+    key: REACT_APP_API_PROTOCOL
+  REACT_APP_API_URL:
+    path: config/app-two/client/base
+    key: REACT_APP_API_URL
+  REACT_APP_API_PORT:
+    path: config/app-two/client/base
+    key: REACT_APP_API_PORT
+  REACT_APP_SOME_DEP_API_AUDIENCE:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_AUDIENCE
+  REACT_APP_SOME_DEP_DOMAIN:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_AUTHORITY
+  REACT_APP_SOME_DEP_CLIENT_ID:
+    path: secrets/yetanotherdep/dev/app-two
+    key: SOME_DEP_CLIENT_ID

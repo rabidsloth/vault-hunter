@@ -1,0 +1,8 @@
+secret_name: app-one-test
+key_config:
+  DB_USER:
+    path: users/{{DEV_NAME}}/db/somedb/dev
+    key: username
+  DB_PASS:
+    path: users/{{DEV_NAME}}/db/somedb/dev
+    key: password

@@ -1,0 +1,5 @@
+secret_name: app-two-client
+key_config:
+  REACT_APP_MODE:
+    path: config/app-two/client/prod
+    key: REACT_APP_MODE

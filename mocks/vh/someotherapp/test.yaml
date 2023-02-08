@@ -1,0 +1,8 @@
+secret_name: someotherapp
+key_config:
+  ADMIN_USER_OVERRIDE:
+    path: secret/machine/somedep/test
+    key: test-username
+  EXAMPLE_PASS2:
+    path: secret/machine/redis/test/app-three
+    key: APP_THREE_INDEX_REDIS_PASSWORD
